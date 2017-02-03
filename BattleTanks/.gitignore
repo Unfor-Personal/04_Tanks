@@ -1,3 +1,10 @@
+# Custom
+#Content/StarterContent/HDRI/*
+#Content/StarterContent/Maps/*
+#Content/StarterContent/Materials/*
+#Content/StarterContent/Textures/*
+Content/StarterContent/*
+
 # Visual Studio 2015 user specific files
 .vs/
 *.VC.db
