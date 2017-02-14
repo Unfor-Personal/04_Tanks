@@ -20,4 +20,7 @@ private:
 
 	//Move Barrel so that shots fired move to where the crosshair intersects the world.
 	void AimTowardsCrosshair();
+
+	// Linetrace through crosshair, return if hit terain
+	bool GetSightRayHitLocation(FVector& HitLocation) const;
 };
