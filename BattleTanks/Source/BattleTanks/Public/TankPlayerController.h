@@ -24,6 +24,8 @@ private:
 	// Linetrace through crosshair, return if hit terain
 	bool GetSightRayHitLocation(FVector& HitLocation) const;
 
+	bool GetLookDirection(FVector2D ScreenLocation, FVector& LookDirection) const;
+
 	UPROPERTY(EditAnywhere)
 		float CrosshairXLocation = 0.5f;
 
