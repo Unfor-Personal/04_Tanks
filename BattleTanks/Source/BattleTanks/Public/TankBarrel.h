@@ -19,11 +19,11 @@ public:
 
 private:
 	UPROPERTY(EditAnywhere)
-		float MaxDegreesPerSecond = 20.f; // TODO Find sensible default
+		float MaxDegreesPerSecond = 5.f;
 	
 	UPROPERTY(EditAnywhere)
-		float MaxElevationDegrees = 30.f; // TODO Find sensible default
+		float MaxElevationDegrees = 30.f;
 
 	UPROPERTY(EditAnywhere)
-		float MinElevationDegrees = 0.f; // TODO Find sensible default
+		float MinElevationDegrees = 0.f;
 };
