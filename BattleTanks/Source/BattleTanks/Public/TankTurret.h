@@ -15,6 +15,6 @@ public:
 
 private:
 	UPROPERTY(EditAnywhere)
-		float MaxDegreesPerSecond = 5.f; // TODO find sensible default
+		float MaxDegreesPerSecond = 25.f;
 
 };
