@@ -5,9 +5,6 @@
 
 void UTankTracks::SetThrottle(float Throttle)
 {
-	auto Time = GetWorld()->GetTimeSeconds();
-	auto Name = GetName();
-	UE_LOG(LogTemp, Warning, TEXT("%f: %s Thrattleing at %f"), Time, *Name, Throttle);
 	// TODO Clamp throttle
 
 	auto ForceApplied = GetForwardVector() * Throttle * TrackMaxDriveForce;
