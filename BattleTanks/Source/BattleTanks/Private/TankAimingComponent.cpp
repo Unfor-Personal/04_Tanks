@@ -42,11 +42,6 @@ void UTankAimingComponent::AimAt(FVector WorldSpaceAim, float LaunchSpeed)
 		auto AimDirection = OutLaunchVelocity.GetSafeNormal();
 		MoveBarrelTowards(AimDirection);
 	}
-	else
-	{
-		auto Time = GetWorld()->GetTimeSeconds();
-		UE_LOG(LogTemp, Error, TEXT("%f: AimAt() No Solution Foud."), Time);
-	}
 }
 
 void UTankAimingComponent::SetTurretReference(UTankTurret * TurretToSet)
